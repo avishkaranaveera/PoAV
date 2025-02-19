@@ -5,31 +5,52 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Oncology Project for Medical Center",
+    year: "Jan 2025 - Present",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
-    link: "#",
+    image: "../../public/images/oncology.png",
+   
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "National Photography Award Competition Web Application",
+    year: "Jan 2025 - Present",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
-    link: "#",
+    image: "../../public/images/Wildlife.png",
+   
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "Redesign of Asalanka Milk Product Distributors Web Application",
+    year: "Dec 2024",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
-    link: "#",
+    image: "../../public/images/CBL.png",
+   
   },
   {
-    name: "Bank of Luck",
-    year: "May2024",
+    name: "Maternal and Child Clinic Management Web Application",
+    year: "Jan 2025 - Present",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: "../../public/images/Clinic.png",
+   
+  },
+  {
+    name: "The Burger Shop – Interactive Website",
+    year: "Jun 2024",
+    align: "right",
+    image: "../../public/images/burger.png",
+    
+  },
+  {
+    name: "Login and Signup Page",
+    year: "Jan 2025",
+    align: "left",
+    image: "../../public/images/login.png",
+    
+  },
+  {
+    name: "Asalanka Milk Product Distributors Web Application",
+    year: "Nov 2024",
+    align: "right",
+    image: "../../public/images/CBL.png",
     link: "#",
   },
 ];

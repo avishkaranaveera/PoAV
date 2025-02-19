@@ -5,22 +5,21 @@ const AboutMeText = () => {
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
       <p>
-        I’m Avishka Ranaveera, a web developer instructor with a passion for teaching
-        and coding. I specialize in React and front-end development, helping
-        students build real-world projects and master modern web technologies. I
-        also run a YouTube channel, CodeNest, where I create tutorials and
-        courses to guide aspiring developers in their journey toward successful
-        careers in tech. Outside of coding, I enjoy continuous learning and
-        sharing knowledge to inspire others to achieve their goals.
+        I’m Avishka Ranaveera, a full stack developer and DevOps learner. Passionate about building dynamic, scalable web applications with a keen interest in both front-end and
+        back-end development. Currently pursuing a Software Engineering degree with hands-on experience in HTML,
+        CSS, JavaScript, React, Java, Springboot, and databases (SQL & NoSQL).
+        Proficient in designing responsive UI, developing RESTful APIs, and working with version control like Git and
+        GitHub. Enthusiastic about problem solving, clean code, and agile development. Seeking an internship
+        opportunity to apply my skills in a real-world environment and collaborate with development teams
       </p>
-      <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
+      <button className="border border-cyan rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:border-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
         <Link
           spy={true}
           smooth={true}
           duration={500}
           offset={-120}
           to="projects"
-          className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
+          className="cursor-pointer text-white hover:text-white transition-all duration-500"
         >
           My Projects
         </Link>

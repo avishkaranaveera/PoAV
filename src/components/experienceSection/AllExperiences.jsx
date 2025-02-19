@@ -5,34 +5,33 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: "Front-End Developer",
-    company: "Alex Apps",
-    date: "2022 - Present",
+    job: "JavaScript for Beginners",
+    company: "Udemy",
+    date: "Jan 2024",
     responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
+      "Gained a solid foundation in JavaScript, including variables, functions, loops, and event handling.",
+      "Learned DOM manipulation to create interactive web pages.",
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Nucamp",
-    date: "2023 - Present",
+    job: "Postman API Fundamentals Student Expert ",
+    company: "Postman",
+    date: "Feb 2025",
     responsibilities: [
-      "Explaining and facilitating web development concepts.",
-      "Help students with their assignments and grade them weekly.",
-      "Provide support for students through their learning journey.",
+      "Gained hands-on experience in API testing, request handling, and response analysis using Postman.",
+      "Learned to create, test, and document APIs efficiently with RESTful principles.",
+      "Developed skills in authentication, environment variables, and automated testing for APIs.",
+      
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Sprints",
-    date: "2024 - Present",
+    job: "Git Training ",
+    company: "Simplilearn",
+    date: "Feb 2025",
     responsibilities: [
-      "Teaching JavaScript, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies.",
+      "Gained proficiency in version control using Git, including branching, merging, and repository management.",
+      "Learned to collaborate effectively using Git workflows and remote repositories (GitHub/GitLab).",
+      "Developed skills in tracking changes, resolving conflicts, and maintaining code integrity in software projects."
     ],
   },
 ];
@@ -51,7 +50,7 @@ const AllExperiences = () => {
                 whileInView="show"
                 viewport={{ once: false, amount: 0.7 }}
               >
-                <FaArrowRightLong className="text-6xl text-orange lg:block sm:hidden" />
+                <FaArrowRightLong className="text-5xl text-cyan lg:block sm:hidden" />
               </motion.div>
             ) : (
               ""
